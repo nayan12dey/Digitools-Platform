@@ -35,7 +35,7 @@ const NavBar = () => {
             <div className="navbar-end gap-4">
 
                 <p className='flex items-center gap-2'><LuShoppingCart />Login</p>
-                <a className="btn bg-linear-to-r from-[#4F39F6] to-purple-600 text-white rounded-full">Get Started</a>
+                <button className="btn bg-linear-to-r from-[#4F39F6] to-purple-600 text-white rounded-full">Get Started</button>
             </div>
         </div>
     );
