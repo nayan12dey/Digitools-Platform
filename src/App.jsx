@@ -1,12 +1,13 @@
 
 import './App.css'
+import NavBar from './component/NavBar'
 
 function App() {
   
 
   return (
     <>
-      <h1 className=''>Nayan</h1>
+      <NavBar></NavBar>
     </>
   )
 }
