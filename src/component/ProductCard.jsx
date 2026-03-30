@@ -42,7 +42,7 @@ const ProductCard = ({ product, carts, setCarts}) => {
                         }
                     </ul>
                     <div className="mt-6">
-                        <button onClick={handleBuy} className="btn bg-linear-to-r from-[#4F39F6] to-purple-600 text-white rounded-full btn-block">{isBuy ? "Bought" : "Buy Now"}</button>
+                        <button onClick={handleBuy} className="btn bg-linear-to-r from-[#4F39F6] to-purple-600 text-white rounded-full btn-block">{isBuy ? "Added on the cart" : "Buy Now"}</button>
                     </div>
                 </div>
             </div>
