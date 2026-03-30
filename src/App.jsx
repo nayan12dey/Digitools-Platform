@@ -9,6 +9,7 @@ import Stats from './component/Stats'
 import Steps from './component/Steps'
 import Tools from './component/Tools'
 import ToolsCard from './component/ToolsCard'
+import Cart from './component/Cart'
 
 
 
@@ -29,7 +30,7 @@ const productPromise = getTools();
 function App() {
 
   // tab active
-  const [active, setActive] = useState("Products")
+  const [activeTab, setActiveTab] = useState("products")
 
 
 
@@ -42,12 +43,18 @@ function App() {
 
       {/* name of each tab group should be unique */}
       <div className="tabs tabs-box flex justify-center bg-transparent gap-6">
-        <input type="radio" name="my_tabs_1" className="tab rounded-full px-6" aria-label="Products" defaultChecked onClick={() => setActive("Products")}/>
-        <input type="radio" name="my_tabs_1" className="tab rounded-full px-6" aria-label="Cart" onClick={() => setActive("Cart") }  />
+        <input type="radio" name="my_tabs_1" className="tab rounded-full px-6" aria-label="Products" defaultChecked onClick={() => setActiveTab("products")}/>
+        <input type="radio" name="my_tabs_1" className="tab rounded-full px-6" aria-label="Cart" onClick={() => setActiveTab("cart") }  />
         
       </div>
 
-      <ToolsCard productPromise={productPromise}></ToolsCard>
+       {activeTab === "products" && <ToolsCard productPromise={productPromise}></ToolsCard>}
+
+       {activeTab === "cart" && <Cart></Cart>}
+
+      {/* <ToolsCard productPromise={productPromise}></ToolsCard> */}
+
+      
 
 
       <Steps></Steps>
