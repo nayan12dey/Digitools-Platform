@@ -35,6 +35,7 @@ function App() {
   // cart state to get data
   const [carts, setCarts] = useState([])
 
+    console.log(carts);
 
 
   return (

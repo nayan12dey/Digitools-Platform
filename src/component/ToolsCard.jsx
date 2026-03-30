@@ -7,7 +7,7 @@ const ToolsCard = ({ productPromise, carts, setCarts }) => {
     // console.log(productPromise);
 
     const products = use(productPromise);
-    console.log(products);
+    // console.log(products);
 
 
 

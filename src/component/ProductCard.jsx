@@ -4,13 +4,16 @@ import React, { useState } from 'react';
 
 const ProductCard = ({ product, carts, setCarts}) => {
 
-    // console.log(product, carts, setCarts)
+    // console.log(product, carts)
 
     const [isBuy, setIsBuy] = useState(false);
 
     const handleBuy = () => {
         setIsBuy(true);
+        setCarts([...carts,product]);
     }
+
+    
 
 
     return (
