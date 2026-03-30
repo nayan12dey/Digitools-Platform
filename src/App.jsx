@@ -14,7 +14,7 @@ import ToolsCard from './component/ToolsCard'
 
 // products
 const getTools = async() => {
-    const response = await fetch("../public/products.json")
+    const response = await fetch("/products.json")
     
     return response.json();
 
@@ -42,8 +42,8 @@ function App() {
 
       {/* name of each tab group should be unique */}
       <div className="tabs tabs-box flex justify-center bg-transparent gap-6">
-        <input type="radio" name="my_tabs_1" className="tab bg-linear-to-r from-[#4F39F6] to-purple-600 text-white rounded-full px-6" aria-label="Products" defaultChecked onClick={() => setActive("Cart")}/>
-        <input type="radio" name="my_tabs_1" className="tab" aria-label="Cart"  />
+        <input type="radio" name="my_tabs_1" className="tab rounded-full px-6" aria-label="Products" defaultChecked onClick={() => setActive("Products")}/>
+        <input type="radio" name="my_tabs_1" className="tab rounded-full px-6" aria-label="Cart" onClick={() => setActive("Cart") }  />
         
       </div>
 
