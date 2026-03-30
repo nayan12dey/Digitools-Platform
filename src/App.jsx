@@ -32,6 +32,9 @@ function App() {
   // tab active
   const [activeTab, setActiveTab] = useState("products")
 
+  // cart state to get data
+  const [carts, setCarts] = useState([])
+
 
 
   return (
@@ -48,9 +51,9 @@ function App() {
         
       </div>
 
-       {activeTab === "products" && <ToolsCard productPromise={productPromise}></ToolsCard>}
+       {activeTab === "products" && <ToolsCard productPromise={productPromise} carts={carts} setCarts={setCarts}></ToolsCard>}
 
-       {activeTab === "cart" && <Cart></Cart>}
+       {activeTab === "cart" && <Cart carts={carts} setCarts={setCarts}></Cart>}
 
       {/* <ToolsCard productPromise={productPromise}></ToolsCard> */}
 
