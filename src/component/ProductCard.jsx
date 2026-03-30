@@ -21,7 +21,7 @@ const ProductCard = ({ product, carts, setCarts}) => {
             <div className="card w-96 bg-base-100 border border-base-300 shadow-sm">
                 <div className="card-body">
                     <div className='flex justify-end'>
-                        <span className="badge badge-xs badge-warning">Most Popular</span>
+                        <span className="badge badge-xs badge-warning">{product.tagType}</span>
                     </div>
                     <div className="flex flex-col space-y-2">
                         <img className='w-7' src={product.icon} alt="" />

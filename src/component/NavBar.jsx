@@ -2,7 +2,7 @@
 import React from 'react';
 import { LuShoppingCart } from "react-icons/lu";
 
-const NavBar = () => {
+const NavBar = ({ carts }) => {
     return (
         <div className="navbar bg-base-100 shadow-sm lg:px-20">
             <div className="navbar-start">
@@ -34,7 +34,15 @@ const NavBar = () => {
             </div>
             <div className="navbar-end gap-4">
 
-                <p className='flex items-center gap-2'><LuShoppingCart />Login</p>
+                <div className='flex items-center gap-4'><div className="relative flex items-center">
+                    <LuShoppingCart size={20} />
+
+                    {carts.length > 0 && (
+                        <span className="absolute -top-1 -right-2 text-xs bg-red-500 text-white rounded-full px-1">
+                            {carts.length}
+                        </span>
+                    )}
+                </div>Login</div>
                 <button className="btn bg-linear-to-r from-[#4F39F6] to-purple-600 text-white rounded-full">Get Started</button>
             </div>
         </div>
