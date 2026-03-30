@@ -26,7 +26,7 @@ const ProductCard = ({ product, carts, setCarts}) => {
                     <div className="flex flex-col space-y-2">
                         <img className='w-7' src={product.icon} alt="" />
                         <h2 className="text-2xl font-bold">{product.name}</h2>
-                        <p>For teams and businesses</p>
+                        <p>{product.description}</p>
                         <span className="text-xl text-left text-gray-600"><span className='text-3xl text-black font-bold'>${product.price}</span>/Mo</span>
                     </div>
                     <ul className="mt-6 flex flex-col gap-2 text-xs">
