@@ -5,12 +5,12 @@ const Pricing = () => {
     return (
         <div>
             <div className='text-center mt-20 space-y-4'>
-                <h3 className='text-5xl font-bold'>Simple, Transparent Pricing</h3>
-                <p className='text-gray-500'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
+                <h3 className='text-2xl sm:text-3xl md:text-5xl font-bold'>Simple, Transparent Pricing</h3>
+                <p className='text-gray-500 text-sm lg:text-base'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
             </div>
 
-            <div className='flex flex-col md:flex-row gap-6 lg:gap-3 justify-center mt-10 items-stretch relative sm:mx-auto'>
-                <div className="card w-full sm:w-80 md:w-96 bg-base-100 border-2 border-base-300 shadow-sm">
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10 max-w-7xl mx-auto px-4 '>
+                <div className="card sm:w-80 md:w-96 bg-base-100 border-2 border-base-300 shadow-sm">
                     <div className="card-body flex flex-col">
                        
                         <div className="flex flex-col items-start justify-between">
