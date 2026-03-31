@@ -16,9 +16,9 @@ Users can browse a curated list of digital products, add them to their cart, and
 ---
 
 ## ✨ Features
-- 🔹 **Dynamic Navbar & Cart** – Displays cart count in real-time, responsive design  
-- 🔹 **Product Catalog & Cart Functionality** – 3-column layout of products, add/remove items, proceed to checkout clears cart  
-- 🔹 **Interactive Sections** – Banner, Stats, Steps, Pricing sections based on Figma design with toggling between products and cart  
+🔹 **Dynamic Navbar & Cart** – Displays cart count in real-time, responsive design  
+🔹 **Product Catalog & Cart Functionality** – 3-column layout of products, add/remove items, proceed to checkout clears cart  
+🔹 **Interactive Sections** – Banner, Stats, Steps, Pricing sections based on Figma design with toggling between products and cart  
 
 ---
 
