@@ -10,6 +10,7 @@ import Steps from './component/Steps'
 import Tools from './component/Tools'
 import ToolsCard from './component/ToolsCard'
 import Cart from './component/Cart'
+import { ToastContainer } from 'react-toastify'
 
 
 
@@ -66,6 +67,10 @@ function App() {
       <Steps></Steps>
       <Pricing></Pricing>
       <Footer></Footer>
+
+
+      <ToastContainer></ToastContainer>
+
     </>
   )
 }
