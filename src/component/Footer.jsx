@@ -21,7 +21,7 @@ const Footer = () => {
                     </aside>
 
                     <nav className='text-gray-500 lg:p-20'>
-                        <h6 className="footer-title text-white">Services</h6>
+                        <h6 className="footer-title text-white">Product</h6>
                         <a className="link link-hover">Features</a>
                         <a className="link link-hover">Pricing</a>
                         <a className="link link-hover">Templates</a>
