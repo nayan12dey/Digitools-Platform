@@ -50,8 +50,8 @@
         "description": "Automate repetitive tasks and streamline your workflow with powerful tools.",
         "price": 79,
         "period": "Mo",
-        "tag": "popular",
-        "tagType": "popular",
+        "tag": "Popular",
+        "tagType": "Popular",
         "features": [
             "50+ automations",
             "API access",

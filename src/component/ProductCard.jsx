@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import { toast } from 'react-toastify';
 
-const ProductCard = ({ product, carts, setCarts}) => {
+const ProductCard = ({ product, carts, setCarts }) => {
 
     // console.log(product, carts)
 
@@ -11,17 +11,17 @@ const ProductCard = ({ product, carts, setCarts}) => {
 
     const handleBuy = () => {
         setIsBuy(true);
-        setCarts([...carts,product]);
+        setCarts([...carts, product]);
 
         toast.success("Add to Cart")
     }
 
-    
+
 
 
     return (
         <div>
-            <div className="card w-96 bg-base-100 border border-base-300 shadow-sm">
+            <div className="card w-[90%] max-w-sm mx-auto bg-base-100 border border-base-300 shadow-sm">
                 <div className="card-body">
                     <div className='flex justify-end'>
                         <span className="badge badge-xs badge-warning">{product.tagType}</span>
@@ -50,6 +50,10 @@ const ProductCard = ({ product, carts, setCarts}) => {
                 </div>
             </div>
         </div>
+
+        
+
+
     );
 };
 

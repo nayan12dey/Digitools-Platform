@@ -9,8 +9,8 @@ const Pricing = () => {
                 <p className='text-gray-500'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
             </div>
 
-            <div className='flex gap-3 justify-center mt-10 items-stretch relative'>
-                <div className="card w-96 bg-base-100 border-2 border-base-300 shadow-sm">
+            <div className='flex flex-col md:flex-row gap-6 lg:gap-3 justify-center mt-10 items-stretch relative sm:mx-auto'>
+                <div className="card w-full sm:w-80 md:w-96 bg-base-100 border-2 border-base-300 shadow-sm">
                     <div className="card-body flex flex-col">
                        
                         <div className="flex flex-col items-start justify-between">
@@ -46,7 +46,7 @@ const Pricing = () => {
                 </div>
 
 
-                <div className="card w-96 bg-base-100 border-2 border-base-300  shadow-sm bg-linear-to-r from-[#4F39F6] to-purple-600 text-white">
+                <div className="card w-full sm:w-80 md:w-96 bg-base-100 border-2 border-base-300  shadow-sm bg-linear-to-r from-[#4F39F6] to-purple-600 text-white">
                     <div className="card-body">
                         <span className="badge badge-sm bg-[#FEF3C6] text-[#BB4D00] roundedfull absolute -top-3 left-1/2 transform -translate-x-1/2 font-bold">Most Popular</span>
                         <div className="flex flex-col items-start">
@@ -88,7 +88,7 @@ const Pricing = () => {
                 </div>
 
 
-                <div className="card w-96 bg-base-100 border-2 border-base-300 shadow-sm">
+                <div className="card w-full sm:w-80 md:w-96 bg-base-100 border-2 border-base-300 shadow-sm">
                     <div className="card-body">
                         <div className="flex flex-col items-start">
                             <h2 className="text-3xl font-bold">Enterprise</h2>

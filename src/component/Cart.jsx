@@ -52,7 +52,7 @@ const Cart = ({ carts, setCarts }) => {
                                             </div>
 
                                             <div>
-                                                <h2 className="text-xl font-bold">{cart.name}</h2>
+                                                <h2 className="sm:text-xl font-bold">{cart.name}</h2>
                                                 <div className="text-gray-600">${cart.price}</div>
                                             </div>
                                         </div>

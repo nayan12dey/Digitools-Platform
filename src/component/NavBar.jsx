@@ -43,7 +43,7 @@ const NavBar = ({ carts }) => {
                         </span>
                     )}
                 </div>Login</div>
-                <button className="btn bg-linear-to-r from-[#4F39F6] to-purple-600 text-white rounded-full">Get Started</button>
+                <button className="btn hidden sm:flex bg-linear-to-r from-[#4F39F6] to-purple-600 text-white rounded-full">Get Started</button>
             </div>
         </div>
     );

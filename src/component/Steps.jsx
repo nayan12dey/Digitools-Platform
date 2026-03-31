@@ -12,8 +12,8 @@ const Steps = () => {
                 <p className='text-gray-500'>Start using premium digital tools in minutes, not hours.</p>
             </div>
 
-            <div className='flex justify-center items-center'>
-                <div className="card bg-base-100 w-90 shadow-sm border border-base-300 m-10 p-10 relative">
+            <div className='grid mt-16 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full lg:w-[90%] mx-auto'>
+                <div className="card bg-base-100 shadow-sm border border-base-300 m-10 p-10 relative">
                     <div className='absolute top-4 right-4 bg-linear-to-r from-[#4F39F6] to-purple-600 text-white w-10 h-10 flex items-center justify-center rounded-full font-bold'>01</div>
                     <div className='mx-auto bg-purple-200 rounded-full p-4'><img
                         src={userImg}
@@ -28,7 +28,7 @@ const Steps = () => {
                     </div>
                 </div>
 
-                <div className="card bg-base-100 w-90 shadow-sm border border-base-300 m-10 p-10 relative">
+                <div className="card bg-base-100 shadow-sm border border-base-300 m-10 p-10 relative">
                     <div className='absolute top-4 right-4 bg-linear-to-r from-[#4F39F6] to-purple-600 text-white w-10 h-10 flex items-center justify-center rounded-full font-bold'>02</div>
                     <div className='mx-auto bg-purple-200 rounded-full p-4'><img
                         src={packageImg}
@@ -43,7 +43,7 @@ const Steps = () => {
                     </div>
                 </div>
 
-                <div className="card bg-base-100 w-90 shadow-sm border border-base-300 m-10 p-10 relative">
+                <div className="card bg-base-100 shadow-sm border border-base-300 m-10 p-10 relative">
                     <div className='absolute top-4 right-4 bg-linear-to-r from-[#4F39F6] to-purple-600 text-white w-10 h-10 flex items-center justify-center rounded-full font-bold'>03</div>
                     <div className='mx-auto bg-purple-200 rounded-full p-4'><img
                         src={rocketImg}
