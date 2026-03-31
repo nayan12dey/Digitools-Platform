@@ -11,6 +11,7 @@ import Tools from './component/Tools'
 import ToolsCard from './component/ToolsCard'
 import Cart from './component/Cart'
 import { ToastContainer } from 'react-toastify'
+import Workflow from './component/Workflow'
 
 
 
@@ -66,6 +67,7 @@ function App() {
 
       <Steps></Steps>
       <Pricing></Pricing>
+      <Workflow></Workflow>
       <Footer></Footer>
 
 

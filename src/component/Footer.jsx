@@ -8,7 +8,7 @@ const Footer = () => {
     return (
         <div>
 
-            <footer className="bg-[#101727] mt-20 px-10 sm:px-20 py-10">
+            <footer className="bg-[#101727] px-10 sm:px-20 py-10">
                 <div className="footer footer-vertical lg:footer-horizontal">
                     <aside>
                         <div className='lg:py-20 text-gray-500 text-lg space-y-3'>
