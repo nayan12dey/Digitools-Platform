@@ -31,7 +31,7 @@ const ProductCard = ({ product, carts, setCarts }) => {
             <div className="card w-[90%] max-w-sm mx-auto bg-base-100 border border-base-300 shadow-sm">
                 <div className="card-body">
                     <div className='flex justify-end'>
-                        <span className="badge badge-xs badge-warning">{product.tagType}</span>
+                        <span className={`badge badge-sm badge-soft rounded-xl ${product.tagType === "Best Seller" ? "bg-[#FEF3C6] text-[#BB4D00]" : product.tagType === "New" ? "bg-green-200 text-green-700" : product.tagType === "Popular" ? "badge-primary" : ""}`}>{product.tagType}</span>
                     </div>
                     <div className="flex flex-col space-y-2">
                         <img className='w-7' src={product.icon} alt="" />
