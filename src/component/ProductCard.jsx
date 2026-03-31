@@ -37,7 +37,7 @@ const ProductCard = ({ product, carts, setCarts }) => {
                         <img className='w-7' src={product.icon} alt="" />
                         <h2 className="text-2xl font-bold">{product.name}</h2>
                         <p>{product.description}</p>
-                        <span className="text-xl text-left text-gray-600"><span className='text-3xl text-black font-bold'>${product.price}</span>/Mo</span>
+                        <span className="text-xl text-left text-gray-600"><span className='text-3xl text-black font-bold'>${product.price}</span>/{product.period}</span>
                     </div>
                     <ul className="mt-6 flex flex-col gap-2 text-xs">
                         {
